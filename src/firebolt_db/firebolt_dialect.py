@@ -24,6 +24,7 @@ from sqlalchemy.types import (
 )
 
 
+
 class ARRAY(sqltypes.TypeEngine):
     __visit_name__ = "ARRAY"
 
